@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bine ai venit!</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    img{
+      filter: grayscale(100%);
+    }
+    header, footer {
+      background-color: #0077cc;
+      color: rgb(187, 16, 16);
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    /* Cadru cu scroll */
+    .scroll-frame {
+      background-color: #fff;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      height: 200px;
+      overflow-y: auto;
+      padding: 15px;
+      margin-bottom: 30px;
+    }
+
+    /* Cadru intern cu obiecte */
+    .inner-box {
+      background-color: #eef;
+      padding: 10px;
+      border: 1px solid #aaa;
+      margin: 10px 0;
+      border-radius: 5px;
+    }
+
+    /* Form styling */
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bine ai venit!</h1>
+    <p>Cu formulare, cadre și scroll</p>
+  </header>
+
+  <nav>
+    <a href="#">Acasă</a>
+    <a href="#">Despre</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+
+    <h2> Cadru Scrollabil</h2>
+    <div class="scroll-frame">
+      <div class="inner-box">
+        <p><strong>Obiect 1:</strong> Imagine</p>
+        <img src="https://i.pinimg.com/736x/fd/03/f1/fd03f13a186d88f402c5311aa1411df4.jpg" alt="Pinterest" style="width: 350px;">
+      <p>&copy Pinterest</p>
+      </div>
+      <div class="inner-box">
+        <p><strong>Obiect 2:</strong> Text</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum.</p>
+      </div>
+      <div class="inner-box">
+        <p><strong>Obiect 3:</strong> Link</p>
+        <a href="https://example.com" target="_blank">Vizitează Example.com</a>
+      </div>
+      <div class="inner-box">
+        <p><strong>Obiect 4:</strong> Mai mult text pentru a activa scrollul...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel sapien vel ligula suscipit vehicula. Donec vitae turpis ut risus vestibulum gravida. Vestibulum convallis imperdiet arcu, nec consequat elit hendrerit a.</p>
+      </div>
+    </div>
+
+    <h2> Formular de Contact</h2>
+    <!-- Formular cu inputuri -->
+    <form action="#" method="post">
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" name="nume" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mesaj">Mesaj:</label>
+      <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+
+      <label for="tip">Tip solicitare:</label>
+      <select id="tip" name="tip">
+        <option value="intrebare">Întrebare</option>
+        <option value="feedback">Feedback</option>
+        <option value="comanda">Comandă</option>
+      </select>
+
+      <input type="submit" value="Trimite">
+    </form>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Site interactiv. Toate drepturile rezervate.
+  </footer>
+  <h1>Bine ai venit pe pagina mea!</h1>
+    <p>Acesta este un exemplu de link care te duce la Google:</p>
+
+    <a href="https://www.google.com" target="_blank">Accesează Google</a>
+
+      <h2>Lista mea de cumpărături:</h2>
+
+  <ul>
+    <li>Pâine</li>
+    <li>Lapte</li>
+    <li>Ouă</li>
+  </ul>
+
+</body>
+</html>
+<body>
+
+  <h1>Pagina Wikipedia despre Moldova</h1>
+
+  <iframe src="https://ro.wikipedia.org/wiki/Moldova" 
+          width="100%" 
+          height="600" 
+          style="border: none;">
+  </iframe>
+
+</body>
+</html>
